@@ -42,4 +42,12 @@ public class AppTest
     {
         assertEquals("Hello JMB!", App.hello("Hello JMB!"));
     }
+
+    /**
+     * Test the bye with empty parameter
+     */
+    public void testByeEmptyParameter()
+    {
+        assertEquals("Bye World!", App.bye());
+    }
 }
