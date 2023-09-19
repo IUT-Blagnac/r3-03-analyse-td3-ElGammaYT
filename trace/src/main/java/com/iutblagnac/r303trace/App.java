@@ -18,5 +18,9 @@ public class App
     public static String hello(String param) {
         return  param ;
     }
+
+    public static String bye() {
+        return  "Bye World!" ;
+    }
     
 }
